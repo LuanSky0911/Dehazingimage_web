@@ -1,0 +1,19 @@
+#  Bỏ môi trường ảo
+venv/
+
+#  Bỏ dữ liệu ảnh gốc (dataset)
+dehazing_data/
+
+#  Bỏ ảnh người dùng upload và ảnh đã xử lý
+static/uploads/
+static/processed/
+
+#  Bỏ file mô hình huấn luyện nếu không muốn public
+models/*.pkl
+
+#  Bỏ file tạm và cache Python
+__pycache__/
+*.pyc
+
+#  VSCode config (tuỳ chọn)
+.vscode/
